@@ -73,9 +73,9 @@ RunDOE_Batch(
 #### Export data from results using `analysis.export_data.rplt2csv`
 
 Numeric simulation results are stored in `*.rplt` format.  
-Exported variables are defined in `GlobalVariables.GlobVar.DataExportTargets`.  
 Variable names should be exactly the same to the ones in the `*.rplt`.  
 To explicitly check variable names, simply import `*.rplt` file on RecurDyn GUI.
+Variables to be exported are defined in `GlobalVariables.GlobVar.DataExportTargets`.  
 
 ```
 rplt2csv(f"{os.getcwd()}/TestDOE_Batch")
